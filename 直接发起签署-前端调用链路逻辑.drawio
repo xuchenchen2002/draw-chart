@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T03:53:33.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="698hyABpf8vTq7mUcdse" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T08:20:11.136Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2N8jWT2TSLWL7Zszn_s-" version="22.1.11" type="github">
   <diagram name="第 1 页" id="jslZnQfncKEaFmFZwY_N">
-    <mxGraphModel dx="1793" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,6 +151,63 @@
         </mxCell>
         <mxCell id="er7y0VEo--Xqzgdm92dJ-17" value="重要概念&lt;br&gt;1、流程模板&lt;br&gt;2、文档模板&lt;br&gt;3、文档控件" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="740" y="290" width="163" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="er7y0VEo--Xqzgdm92dJ-18" target="er7y0VEo--Xqzgdm92dJ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-18" value="保存模板&lt;br&gt;请求" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="140" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="er7y0VEo--Xqzgdm92dJ-19" target="er7y0VEo--Xqzgdm92dJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-19" value="请求到达&lt;br&gt;contract-mange" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="er7y0VEo--Xqzgdm92dJ-21" target="er7y0VEo--Xqzgdm92dJ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-21" value="预处理请求参数&lt;br&gt;简单参数校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="er7y0VEo--Xqzgdm92dJ-23" target="er7y0VEo--Xqzgdm92dJ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-23" value="保存流程模板&lt;br&gt;com.timevale.contractmanager.core.service.process.impl.factory.FlowTemplateSaveServiceFactory#save" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="er7y0VEo--Xqzgdm92dJ-27" target="er7y0VEo--Xqzgdm92dJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-35" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="er7y0VEo--Xqzgdm92dJ-32">
+          <mxGeometry x="-0.4757" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="er7y0VEo--Xqzgdm92dJ-27" target="er7y0VEo--Xqzgdm92dJ-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1640" y="625" />
+              <mxPoint x="1640" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-36" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="er7y0VEo--Xqzgdm92dJ-34">
+          <mxGeometry x="-0.3563" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-27" value="新增流程模板&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;进行默认授权" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="584.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="er7y0VEo--Xqzgdm92dJ-28" target="er7y0VEo--Xqzgdm92dJ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-28" value="com.timevale.contractmanager.core.service.process.FlowTemplateService#authFlowTemplate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er7y0VEo--Xqzgdm92dJ-31" value="返回结果" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="820" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
